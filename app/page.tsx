@@ -23,7 +23,7 @@ export default async function Home() {
               </div>
             </CardHeader>
             <CardContent>
-              <p>You're not logged in, log in using Discord's OAuth2 by clicking the button below!</p>
+              <p>You&apos;re not logged in, log in using Discord&apos;s OAuth2 by clicking the button below!</p>
             </CardContent>
             <CardFooter>
               <Button variant={'outline'} asChild>
@@ -45,7 +45,7 @@ export default async function Home() {
             <CardHeader>
               <div className="flex items-center">
                 <Image src={`https://cdn.discordapp.com/avatars/${session.id}/${session.avatar}.webp`} alt="PP" width={'64'} height={'64'} className="rounded-full mr-4 border-2 border-black" />
-                <CardTitle className="text-center text-xl">{session.username}, you're logged in!</CardTitle>
+                <CardTitle className="text-center text-xl">{session.username}, you&apos;re logged in!</CardTitle>
               </div>
             </CardHeader>
             <CardContent className="flex flex-col items-center">
